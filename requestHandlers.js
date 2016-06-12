@@ -37,7 +37,7 @@ function upload(res, req) {
       }
     });
   res.writeHead(200, {'Content-Type': 'text/html'});
-  res.write('recieved image:<br/>');
+  res.write('received image:<br/>');
   res.write("<img src = '/show' />")
   res.end();
 });
